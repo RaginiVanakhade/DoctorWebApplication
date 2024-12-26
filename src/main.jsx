@@ -1,13 +1,15 @@
-import { StrictMode } from 'react'
+import { StrictMode, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
-
-
+import Todo from './Todo.jsx'
+import PasswordGenarator from './MyComponent/PasswordGenarator.jsx'
+import Child from './MyComponent/Child.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Todo />
+    <PasswordGenarator/>
+    <Child/>
   </StrictMode>,
 )

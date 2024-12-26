@@ -1,10 +1,10 @@
 import React from 'react'
-import Child from './Child'
-const Header = () => {
+
+const Header = (
+
+) => {
   return (
-    <div>
-        <Child/>
-    </div>
+    <div>Header</div>
   )
 }
 
