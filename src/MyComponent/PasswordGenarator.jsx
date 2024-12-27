@@ -30,8 +30,9 @@ const PasswordGenarator = () => {
     window.navigator.clipboard.writeText(password)
   }, [password])
   return (
-    <div className='bg-yellow-200 w-64 items-center'>
+    <div className='bg-yellow-200 items-center m-10 p-10'>
       <div>
+        <h1 className='text-xl bg-orange-400 text-center'>Password Genrator</h1>
         <form>
           <input
             type="text"

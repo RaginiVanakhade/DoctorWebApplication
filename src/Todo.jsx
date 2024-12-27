@@ -19,7 +19,7 @@ const Todo = () => {
   }
 
   return (
-    <div className='bg-gray-600 w-96 m-10 p-4'>
+    <div className='bg-gray-600 m-10 p-4'>
       <h1 className='bg-orange-400 text-center'>To Do App</h1>
       <div>
         <label htmlFor="text" className='bg-red-300 p-1'>Value</label>

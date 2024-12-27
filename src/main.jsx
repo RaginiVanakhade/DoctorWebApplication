@@ -3,13 +3,13 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Todo from './Todo.jsx'
 import PasswordGenarator from './MyComponent/PasswordGenarator.jsx'
-import Child from './MyComponent/Child.jsx'
+import StopWatch from './MyComponent/StopWatch.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Todo />
     <PasswordGenarator/>
-    <Child/>
+    <StopWatch/>
   </StrictMode>,
 )
