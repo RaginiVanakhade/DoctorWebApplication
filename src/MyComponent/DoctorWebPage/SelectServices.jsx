@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Service from "./Service.json"
 
 const SelectServices = () => {
-    const [selected, setSelected] = useState("");
+    const [selected, setSelected] = useState("hello");
 
     function handleServiceChange(e) {
       setSelected(e.target.value);

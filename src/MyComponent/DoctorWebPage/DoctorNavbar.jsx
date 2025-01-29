@@ -5,13 +5,6 @@ import Slider from "./Slider";
 import SelectServices from "./SelectServices";
 
 const DoctorNavbar = () => {
-  const [home, setHome] = useState(false)
-  function handleHomePage() {
-    console.log("working now");
-    if(home){
-      setHome(<Slider/>)
-    }
-  }
 
   return (
     <div>
@@ -22,10 +15,10 @@ const DoctorNavbar = () => {
         <Link to="about" className="text-sm md:text-base">
           <div>About</div>
         </Link>
-        <div onClick={handleHomePage}>{<SelectServices/>}</div>
+        <div >{<SelectServices/>}</div>
       </div>
       <div className=" ">
-      <div>{home ? "" : <Slider/>}</div>
+      <div><Slider/></div>
       </div>
       <div >
         <DoctorFooter/>
